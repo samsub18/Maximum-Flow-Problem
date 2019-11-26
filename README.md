@@ -9,3 +9,6 @@ The simulation can be found in the ppt
 
 ### To compile :
 - gcc -o main main.c functions.c -I.
+
+### To run: 
+- type **main** in cmd after compilation
