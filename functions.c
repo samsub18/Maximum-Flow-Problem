@@ -1,5 +1,4 @@
 // =================== UTILITY FUNCTION FILE ======================= //
-
 #include <stdlib.h>
 #include <limits.h>
 #include <stdio.h>
@@ -204,7 +203,7 @@ int fordFulkerson(struct graph *g, int s, int t)
             bottle_neck = min(bottle_neck, capacity);
         }
 
-        printf("Bottle Neck : %d\n", bottle_neck);
+        // printf("Bottle Neck : %d\n", bottle_neck);  // Printing the Bottle Neck Value
 
         for (v = t; v != s; v = path[v])
         {

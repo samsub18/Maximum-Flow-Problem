@@ -1,6 +1,5 @@
 // =================== HEADER FILE ======================= //
 
-
 int min(int a, int b);
 struct Queue *create_queue(int capacity);
 int isFull(struct Queue *q);
